@@ -1,0 +1,211 @@
+
+body{
+	background-color: #00053d;
+margin:auto;
+
+width: 80%:;
+
+margin-top: 20%;
+text-align:center; 
+}
+
+a:link {
+  color: #88a3e7;}
+
+
+a:visited {
+  color: #88a3e7;
+}
+
+a:hover {
+  color: #2F34E6;
+}
+
+h1{
+	
+	color: #ffffff;
+	font-family: 'Benne', serif;
+}
+
+h4{
+	
+	color: #ffffff;
+	font-family: 'Benne', serif;
+
+}
+h2{
+	
+	color: #ffffff;
+	font-family: 'Benne', serif;
+	}
+h5{color: #ffffff;
+    font-family: 'Benne', serif;
+    }
+
+
+/*https://stackoverflow.com/questions/40789222/css-animate-scrolling-text-using-text-indent*/
+.sitemessage {
+    width:100%;
+    max-width: 960px;
+    margin:auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 965px;
+    animation: floatText 15s infinite linear;
+}
+
+.sitemessage:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes floatText{
+    from {
+        text-indent: 100%;
+    }
+
+    to {
+        text-indent: -100%;
+    }
+}
+
+
+/*https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css/*/
+
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+
+/*https://www.w3docs.com/snippets/css/how-to-vertically-center-text-with-css.html*/
+.centerdiv {
+        display: table-cell;
+        width: 100%;
+        height: 100%;
+        padding: 100px;
+        
+        vertical-align: middle;
+      }
+
+/*https://stackoverflow.com/questions/28145840/how-to-scale-an-element-when-it-loads-using-only-css*/
+
+.popOver {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    
+    -webkit-animation: bummer 7s;
+    animation: bummer 7s;
+    -webkit-transform: scale(0,0); 
+    transform: scale(0,0);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes bummer {
+    100% {
+        -webkit-transform: scale(1,1); 
+    }
+}
+
+
+/*https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
+.glow {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFFF00, 0 0 40px #FFFF00, 0 0 50px #FFFF00, 0 0 60px #FFFFE0, 0 0 70px #FFFFE0;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #FFFF00, 0 0 40px #FFFF00, 0 0 50px #ff4da6, 0 0 60px #FFFF00, 0 0 70px #FFFFE0, 0 0 80px #FFFFE0;
+  }
+}
+
+
+/*https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
+.glowred {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glowred 1s ease-in-out infinite alternate;
+  -moz-animation: glowred 1s ease-in-out infinite alternate;
+  animation: glowred 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowred {
+  from {
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+  }
+  to {
+    text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+  }
+}
+
+
+
+/*https://blog.hubspot.com/website/css-fade-in*/
+
+.fade-in {
+  animation: fadeIn ease 20s;
+  -webkit-animation: fadeIn ease 20s;
+  -moz-animation: fadeIn ease 20s;
+  -o-animation: fadeIn ease 20s;
+  -ms-animation: fadeIn ease 20s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}

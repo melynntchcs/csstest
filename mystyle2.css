@@ -1,0 +1,76 @@
+
+
+body{
+	
+margin:auto;
+
+width: 80%:;
+
+margin-top: 20%;
+text-align:center; 
+
+background-image: url('creepytree2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+h1{
+	
+	color: #ffffff;
+	font-family: 'Benne', serif;
+}
+
+h4{
+	
+	color: #ffffff;
+	font-family: 'Benne', serif;
+
+}
+h2{
+	
+	color: #ffffff;
+	font-family: 'Benne', serif;
+	}
+
+
+/*https://stackoverflow.com/questions/40789222/css-animate-scrolling-text-using-text-indent*/
+.sitemessage {
+    width:100%;
+    max-width: 960px;
+    margin:auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 965px;
+    animation: floatText 15s infinite linear;
+}
+
+.sitemessage:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes floatText{
+    from {
+        text-indent: 100%;
+    }
+
+    to {
+        text-indent: -100%;
+    }
+}
+
+
+
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+
+
